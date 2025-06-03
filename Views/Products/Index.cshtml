@@ -1,0 +1,7 @@
+﻿
+<a href="/products/Create">create</a>
+@foreach(var product in @Model)
+{
+    <h2>@product.Name</h2>
+    <a href="/products/Details/@product.Id">Details</a>
+}
